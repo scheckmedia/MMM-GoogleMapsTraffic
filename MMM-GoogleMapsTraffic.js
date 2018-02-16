@@ -17,7 +17,7 @@ Module.register("MMM-GoogleMapsTraffic", {
 		zoom: 10,
         mapTypeId: 'roadmap',
 		disableDefaultUI: true,
-        theme: null
+        theme: 'dark'
 	},
 
     start: function(){
