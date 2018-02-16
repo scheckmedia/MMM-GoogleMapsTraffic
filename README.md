@@ -55,4 +55,4 @@ The easiest way to obtain latitude and longitude coordinates is via [Google Maps
 ![Alt text](/img/coordinates.png "Google Maps coordinates.")
 
 ## Styles
-To add custom styles use the [mapstyle app](https://mapstyle.withgoogle.com/). If you are finish with your configuration just copy the json, create a new file `themes/stylename.json` and paste the copied json content in this file. After this you are able to set the `theme` attribute to to `stylename` to apply your style to the map.
+To add custom styles use the [mapstyle app](https://mapstyle.withgoogle.com/). If you are finish with your configuration just copy the json, create a new file `themes/stylename.json` and paste the copied json content in this file. After this you are able change the `theme` attribute to `stylename` to apply your custom style to the map.
