@@ -22,7 +22,8 @@ var config = {
                 lat: 37.8262306,
                 lng: -122.2920096,
                 height: '300px',
-                width: '300px'
+                width: '300px',
+                themes: 'dark'
             }
         }
     ]
@@ -41,6 +42,7 @@ var config = {
 | `zoom`               | Zoom value to display from lat/lng. <br><br>**Type:** `integer` <br> **Default value:** `10`
 | `mapTypeId`          | The map type to display (roadmap, satellite, hybrid, terrain).  <br><br>**Type:** `string` <br> **Default value:** `roadmap`
 | `disableDefaultUI`   | Disable default UI buttons (Zoom and Street View). <br><br>**Type:** `boolean` <br> **Default value:** `true`
+| `themes`             | Allows you to assign a custom style to the map. <br><br>**Type:** `string` <br> **Default value:** `dark`
 
 ## Google API Key
 
@@ -51,3 +53,6 @@ Obtain an api at [Google Developer's page](https://developers.google.com/maps/do
 The easiest way to obtain latitude and longitude coordinates is via [Google Maps](https://maps.google.com). Type an address, location, or center the map where you'd like it centered. The coordinates will appear in the address bar as seen below.
 
 ![Alt text](/img/coordinates.png "Google Maps coordinates.")
+
+## Styles
+To add custom styles use the [mapstyle app](https://mapstyle.withgoogle.com/). If you are finish with your configuration just copy the json, create a new file `themes/stylename.json` and paste the copied json content in this file. After this you are able to set the `themes` value to `stylename` to apply your style to the map.
